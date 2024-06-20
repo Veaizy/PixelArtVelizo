@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Velizo/Velizo.unity
+    guid: a81ce67908ecbaf42a5a3036e0c558aa
   m_configObjects: {}
