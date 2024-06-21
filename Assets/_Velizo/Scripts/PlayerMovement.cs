@@ -22,6 +22,15 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     private bool isJumpPressed;
 
+    private void OnQuit()
+    {
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.ExitPlaymode();
+#else
+        Application.Quit();
+#endif
+    }
+
     /// <summary> Called via Send Message from PlayerInput component </summary>
     private void OnJump(InputValue value)
     {
