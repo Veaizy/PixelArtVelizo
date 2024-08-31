@@ -1,0 +1,16 @@
+{
+    "name": "com.feddas.inventory",
+    "displayName": "Inventory",
+    "version": "0.0.1",
+    "unity": "2018.2",
+    "category": "",
+    "description": "Inventory framework for item collection and triggering audio based on what the character is holding in their inventory.",
+    "author": "Feddas <not@given.com> (https://shawn.featherly.net)",
+    "homepage": "https://github.com/Feddas/Rapunzel/",
+    "repository": "git://github.com/Feddas/Rapunzel.git",
+    "dependencies": {},
+    "keywords": [
+        "inventory"
+    ],
+    "samples": []
+}
