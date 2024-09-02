@@ -288,9 +288,10 @@ GameObject:
   - component: {fileID: 424627949760840483}
   - component: {fileID: 424627949760840488}
   - component: {fileID: 4693787722663397268}
+  - component: {fileID: 8082828148389613600}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -372,6 +373,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 052b0a272e8b5b341add2e0e735523de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TagHazards: Finish
+  TagHazards: Respawn
   restartDelay: 1
   isAlive: 1
+--- !u!114 &8082828148389613600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424627949760840482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb0a1c0ec6c80a04286edc26e9de65bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollectableByTag: Player
+  DelayToDestroy: 0
+  MyInventory: []

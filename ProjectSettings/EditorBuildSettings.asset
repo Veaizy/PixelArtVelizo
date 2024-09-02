@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Velizo/Velizo.unity
     guid: a81ce67908ecbaf42a5a3036e0c558aa
+  - enabled: 1
+    path: Assets/_Velizo/VeaizyLevel.unity
+    guid: 6d4d3740f1c737f45916ad798bfccacb
   m_configObjects: {}
