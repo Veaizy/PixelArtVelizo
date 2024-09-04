@@ -2076,7 +2076,7 @@ GameObject:
   - component: {fileID: 6012718148174300834}
   m_Layer: 0
   m_Name: Hazard
-  m_TagString: Finish
+  m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3269,18 +3269,6 @@ CompositeCollider2D:
         Y: 30000000
     - - X: 190000000
         Y: 20000000
-      - X: 170000100
-        Y: 20000000
-      - X: 170000100
-        Y: 20000041
-      - X: 170000041
-        Y: 20000100
-      - X: 149999959
-        Y: 20000100
-      - X: 149999900
-        Y: 20000041
-      - X: 149999900
-        Y: 20000000
       - X: 138750000
         Y: 20000000
       - X: 139687504
@@ -3341,14 +3329,8 @@ CompositeCollider2D:
         Y: 0
       - X: 140000000
         Y: 10000000
-      - X: 149999900
-        Y: 10000000
-      - X: 149999900
-        Y: 9999959
-      - X: 149999959
-        Y: 9999900
       - X: 170000000
-        Y: 9999900
+        Y: 10000000
       - X: 170000000
         Y: -10000000
       - X: 160000000
@@ -3409,7 +3391,7 @@ CompositeCollider2D:
       - {x: 1.0000294, y: 0}
       - {x: 14, y: 0.000029300001}
       - {x: 14.000029, y: 1}
-      - {x: 17, y: 0.9999606}
+      - {x: 17, y: 0.9999706}
       - {x: 16.999971, y: -1}
       - {x: 16, y: -1.0000293}
       - {x: 15.999971, y: -3}
@@ -3427,7 +3409,7 @@ GameObject:
   - component: {fileID: 6012718149143106791}
   - component: {fileID: 6012718149143106790}
   m_Layer: 0
-  m_Name: VeaizyLevel
+  m_Name: Velizo2Veaizy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3883,16 +3865,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 17, y: 2, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 4
-      m_TileSpriteIndex: 4
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 18, y: 2, z: 0}
     second:
       serializedVersion: 2
@@ -3908,16 +3880,6 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 1
       m_TileSpriteIndex: 1
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 17, y: 3, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -3955,7 +3917,7 @@ Tilemap:
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 2
+  - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 4eaa02ed64bba4b4f99018f8c683f3c2, type: 2}
   - m_RefCount: 3
     m_Data: {fileID: 11400000, guid: ca1419b9af3dd304ab04050309888bd4, type: 2}
@@ -3963,10 +3925,10 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 2323762184446e04ebb4a0dc76f583ef, type: 2}
   - m_RefCount: 16
     m_Data: {fileID: 11400000, guid: aea1ea748715c1d48a99b68557ef373a, type: 2}
-  - m_RefCount: 2
+  - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 0e73312490cd9924abc11c746092de91, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 2
+  - m_RefCount: 1
     m_Data: {fileID: 1325799394, guid: 6ff8b313633fbd8479a7bbd26f478c7b, type: 3}
   - m_RefCount: 3
     m_Data: {fileID: -564066344, guid: 6ff8b313633fbd8479a7bbd26f478c7b, type: 3}
@@ -3974,10 +3936,10 @@ Tilemap:
     m_Data: {fileID: -1874231127, guid: 6ff8b313633fbd8479a7bbd26f478c7b, type: 3}
   - m_RefCount: 16
     m_Data: {fileID: -1484208295, guid: 6ff8b313633fbd8479a7bbd26f478c7b, type: 3}
-  - m_RefCount: 2
+  - m_RefCount: 1
     m_Data: {fileID: 987957553, guid: 6ff8b313633fbd8479a7bbd26f478c7b, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 26
+  - m_RefCount: 24
     m_Data:
       e00: 1
       e01: 0
@@ -3996,7 +3958,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 26
+  - m_RefCount: 24
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1

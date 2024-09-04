@@ -6287,16 +6287,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 0, y: -2, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 3
-      m_TileSpriteIndex: 3
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 4, y: -1, z: 0}
     second:
       serializedVersion: 2
@@ -6335,7 +6325,7 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 5
+  - m_RefCount: 4
     m_Data: {fileID: 11400000, guid: 4f7c4ea397a432342a4a9f6df65f36a3, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 0
@@ -6344,10 +6334,10 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 5
+  - m_RefCount: 4
     m_Data: {fileID: 173091717, guid: 6ff8b313633fbd8479a7bbd26f478c7b, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 5
+  - m_RefCount: 4
     m_Data:
       e00: 1
       e01: 0
@@ -6366,7 +6356,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 5
+  - m_RefCount: 4
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -7412,6 +7402,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 0, y: -2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 1, y: -2, z: 0}
     second:
       serializedVersion: 2
@@ -7726,7 +7726,7 @@ Tilemap:
   m_TileAssetArray:
   - m_RefCount: 85
     m_Data: {fileID: 11400000, guid: b706c22412eb73040aab40384a529b92, type: 2}
-  - m_RefCount: 18
+  - m_RefCount: 19
     m_Data: {fileID: 11400000, guid: eab1dc9a4549ba94fb217774d17c3924, type: 2}
   - m_RefCount: 0
     m_Data: {fileID: 0}
@@ -7737,7 +7737,7 @@ Tilemap:
   m_TileSpriteArray:
   - m_RefCount: 85
     m_Data: {fileID: 77899739, guid: 6ff8b313633fbd8479a7bbd26f478c7b, type: 3}
-  - m_RefCount: 18
+  - m_RefCount: 19
     m_Data: {fileID: 1301064156, guid: 6ff8b313633fbd8479a7bbd26f478c7b, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
@@ -7746,7 +7746,7 @@ Tilemap:
   - m_RefCount: 19
     m_Data: {fileID: 901200397, guid: 6ff8b313633fbd8479a7bbd26f478c7b, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 122
+  - m_RefCount: 123
     m_Data:
       e00: 1
       e01: 0
@@ -7765,7 +7765,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 122
+  - m_RefCount: 123
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -7897,49 +7897,21 @@ CompositeCollider2D:
   m_ColliderPaths:
   - m_Collider: {fileID: 6012718148920093598}
     m_ColliderPaths:
-    - - X: 180000041
-        Y: 20000100
-      - X: 169999959
-        Y: 20000100
-      - X: 169999900
-        Y: 20000041
-      - X: 169999900
-        Y: -9999900
-      - X: 159999959
-        Y: -9999900
-      - X: 159999900
-        Y: -9999959
-      - X: 159999900
+    - - X: 120000000
         Y: -10000000
-      - X: 120000100
+      - X: 120000000
+        Y: 0
+      - X: 110000000
+        Y: 0
+      - X: 110000000
+        Y: -20000000
+      - X: 90000000
+        Y: -20000000
+      - X: 90000000
         Y: -10000000
-      - X: 120000100
-        Y: 41
-      - X: 120000041
-        Y: 100
-      - X: 109999959
-        Y: 100
-      - X: 109999900
-        Y: 41
-      - X: 109999900
-        Y: -10000041
-      - X: 109999959
-        Y: -10000100
-      - X: 110000100
-        Y: -10000100
-      - X: 110000100
-        Y: -20000041
-      - X: 110000041
-        Y: -20000100
-      - X: 89999959
-        Y: -20000100
-      - X: 89999900
-        Y: -20000041
-      - X: 89999900
+      - X: 0
         Y: -10000000
-      - X: 10000000
-        Y: -10000000
-      - X: 10000000
+      - X: 0
         Y: -20000000
       - X: -10000000
         Y: -20000000
@@ -7949,32 +7921,28 @@ CompositeCollider2D:
         Y: 30000000
       - X: -40000000
         Y: -60000000
-      - X: 169999900
+      - X: 180000000
         Y: -60000000
-      - X: 169999900
-        Y: -60000041
-      - X: 169999959
-        Y: -60000100
-      - X: 180000041
-        Y: -60000100
-      - X: 180000100
-        Y: -60000041
-      - X: 180000100
-        Y: 20000041
+      - X: 180000000
+        Y: 20000000
+      - X: 170000000
+        Y: 20000000
+      - X: 170000000
+        Y: -10000000
   m_CompositePaths:
     m_Paths:
-    - - {x: 17.999975, y: -6.00001}
-      - {x: 17.999975, y: 2.00001}
-      - {x: 16.99999, y: 1.9999748}
-      - {x: 16.99996, y: -0.99999}
-      - {x: 12.00001, y: -0.9999706}
-      - {x: 11.999974, y: 0.00001}
-      - {x: 10.99999, y: -0.0000252}
-      - {x: 10.999974, y: -2.00001}
-      - {x: 8.99999, y: -1.9999748}
-      - {x: 8.999961, y: -1}
-      - {x: 1, y: -1.0000293}
-      - {x: 0.9999706, y: -2}
+    - - {x: 17.999971, y: -6}
+      - {x: 17.999971, y: 2}
+      - {x: 17, y: 1.9999708}
+      - {x: 16.999971, y: -1}
+      - {x: 12, y: -0.9999706}
+      - {x: 11.99997, y: 0}
+      - {x: 11, y: -0.000029300001}
+      - {x: 10.99997, y: -2}
+      - {x: 9, y: -1.9999707}
+      - {x: 8.99997, y: -1}
+      - {x: 0, y: -1.0000293}
+      - {x: -0.0000294, y: -2}
       - {x: -1, y: -1.9999707}
       - {x: -1.0000293, y: 3}
       - {x: -4, y: 2.999971}
@@ -7992,7 +7960,7 @@ GameObject:
   - component: {fileID: 6012718149143106791}
   - component: {fileID: 6012718149143106790}
   m_Layer: 0
-  m_Name: GridForest1
+  m_Name: Velizo1Dad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8875,6 +8843,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileDoor
       objectReference: {fileID: 0}
+    - target: {fileID: 7279854542734536370, guid: 34f9819f12c25954aaa92274cbd9233a, type: 3}
+      propertyPath: Scene.m_SceneName
+      value: Velizo2Veaizy
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279854542734536370, guid: 34f9819f12c25954aaa92274cbd9233a, type: 3}
+      propertyPath: Scene.m_SceneAsset
+      value: 
+      objectReference: {fileID: 102900000, guid: 6d4d3740f1c737f45916ad798bfccacb, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34f9819f12c25954aaa92274cbd9233a, type: 3}
 --- !u!4 &7754618882889422035 stripped

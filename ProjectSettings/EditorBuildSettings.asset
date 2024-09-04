@@ -6,9 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Velizo/Velizo.unity
+    path: Assets/_Velizo/Velizo1Dad.unity
     guid: a81ce67908ecbaf42a5a3036e0c558aa
   - enabled: 1
-    path: Assets/_Velizo/VeaizyLevel.unity
+    path: Assets/_Velizo/Velizo2Veaizy.unity
     guid: 6d4d3740f1c737f45916ad798bfccacb
+  - enabled: 1
+    path: Assets/_Velizo/Velizo3Veaizy.unity
+    guid: 9a7afbe8722d0aa4d9a5f79b6e6a2d22
   m_configObjects: {}
